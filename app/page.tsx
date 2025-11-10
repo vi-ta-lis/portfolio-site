@@ -19,7 +19,7 @@ import HeadShot from "../public/Img/the-head-ss.jpg";
 import Image from "next/image";
 import Link from "next/link";
 import { useState } from "react";
-import FitFam from "../public/Img/fitfam.png";
+import Subify from "../public/Img/subify-ss.png";
 import Lend from "../public/Img/Lend.png";
 import Sub from "../public/Img/SubTrack.png";
 
@@ -467,13 +467,13 @@ function SkillsSection() {
 function ProjectsSection() {
   const projects = [
     {
-      title: "FitfamPay",
+      title: "Subify",
       description:
-        "Many people struggle to find affordable gyms nearby or deal with inconvenient payment options. FitfamPay solves this by offering a location-based platform where users can discover gyms, compare plans, and make seamless payments, all in one place.",
-      image: FitFam,
-      tags: ["React", "Tailwind CSS", "MapBox API"],
-      demoLink: "https://fitfam-pay.vercel.app/",
-      githubLink: "https://github.com/vi-ta-lis/Fitfam-Pay",
+        "Subify is a smart subscription management platform designed to help users track and organize all their recurring payments in one place. From Netflix to Spotify and gym memberships, users can see exactly where their money goes, receive renewal reminders, and avoid unexpected charges. The system provides a clean, visual dashboard that displays active, upcoming, and expired subscriptions, making financial planning simple and stress-free.",
+      image: Subify,
+      tags: ["React", "Tailwind CSS", "Firebase", "JavaScript"],
+      demoLink: "https://subify-seven.vercel.app/",
+      githubLink: "https://github.com/vi-ta-lis/Subify",
     },
     {
       title: "Loan Management Dashboard ",
