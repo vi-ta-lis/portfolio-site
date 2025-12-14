@@ -292,7 +292,7 @@ function AboutSection() {
                 staying ahead in the ever-evolving world of web development.
               </p>
               <div className="flex flex-wrap gap-4">
-                <Link href="https://docs.google.com/document/d/1LXhUabNGB8dDX2soh55yKMjUMvBJmzB5/edit?usp=sharing&ouid=102308897836981882441&rtpof=true&sd=true">
+                <Link href="https://drive.google.com/file/d/1mN0mNV1C2DIjyU2J9xdy12i16Xq6G-qz/view?usp=drivesdk">
                   <button className="inline-flex items-center px-6 py-3 text-gray-700 bg-white border border-gray-200 rounded-full shadow-md hover:shadow-lg hover:bg-gray-50 transform hover:-translate-y-1 transition-all duration-300 font-medium">
                     <Download className="mr-2 h-5 w-5" />
                     Download CV
