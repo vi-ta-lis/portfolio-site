@@ -21,7 +21,7 @@ import Link from "next/link";
 import { useState } from "react";
 import Subify from "../public/Img/subify-ss.png";
 import Lend from "../public/Img/Lend.png";
-import Sub from "../public/Img/SubTrack.png";
+import Rebble from "../public/Img/rebble-site.png";
 
 export default function Portfolio() {
   return (
@@ -398,6 +398,7 @@ function SkillsSection() {
   const otherSkills = [
     "JavaScript",
     "HTML5",
+    "Firebase",
     "CSS3",
     "Redux",
     "GraphQL",
@@ -467,6 +468,16 @@ function SkillsSection() {
 function ProjectsSection() {
   const projects = [
     {
+      title: "Rebble by Syarpa",
+      description:
+        "Rebble is a fast and secure crypto platform designed for effortless buying and selling of digital assets. With a user-friendly interface and instant transactions.Rebble makes crypto trading simple and accessible for everyone. Whether you're purchasing or selling, Rebble ensures a seamless and secure experience",
+      image: Rebble,
+      tags: ["NextJs", "TypeScript", "Tailwind CSS", "Redux"],
+      demoLink: "https://www.rebble.app/",
+      githubLink: "",
+    },
+
+    {
       title: "Subify",
       description:
         "Subify is a smart subscription management platform designed to help users track and organize all their recurring payments in one place. From Netflix to Spotify and gym memberships, users can see exactly where their money goes, receive renewal reminders, and avoid unexpected charges. The system provides a clean, visual dashboard that displays active, upcoming, and expired subscriptions, making financial planning simple and stress-free.",
@@ -489,15 +500,6 @@ function ProjectsSection() {
       ],
       demoLink: "https://vitalis-kalu-lendsqr-fe-test.vercel.app/",
       githubLink: "https://github.com/vi-ta-lis/lendsqr-fe-test",
-    },
-    {
-      title: "Subscription Management App",
-      description:
-        "Managing multiple subscriptions can be confusing and costly, with missed renewals and hidden charges. Subtrack simplifies this by centralizing all subscriptions, tracking renewal dates, and giving users a clear view of their expenses",
-      image: Sub,
-      tags: ["React", "JavaScript", "Tailwind CSS", "Redux"],
-      demoLink: "https://subtrak-jade.vercel.app/",
-      githubLink: "https://github.com/vi-ta-lis/Subtrak",
     },
   ];
 
