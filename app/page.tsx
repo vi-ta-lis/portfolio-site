@@ -22,6 +22,7 @@ import { useState } from "react";
 import Subify from "../public/Img/subify-ss.png";
 import Lend from "../public/Img/Lend.png";
 import Rebble from "../public/Img/rebble-site.png";
+import Syarpa from "../public/Img/syp.png";
 
 export default function Portfolio() {
   return (
@@ -500,6 +501,16 @@ function ProjectsSection() {
       ],
       demoLink: "https://vitalis-kalu-lendsqr-fe-test.vercel.app/",
       githubLink: "https://github.com/vi-ta-lis/lendsqr-fe-test",
+    },
+
+    {
+      title: "Syarpa",
+      description:
+        "Syarpa is a digital wealth management company bridging Africa to the world. We open access to money market opportunities, capital markets, real estate, and enterprises through secure on-chain stable coin fractional ownership",
+      image: Syarpa,
+      tags: ["NextJs", "TypeScript", "Tailwind CSS", "Redux"],
+      demoLink: "https://www.syarpa.com/",
+      githubLink: "",
     },
   ];
 
